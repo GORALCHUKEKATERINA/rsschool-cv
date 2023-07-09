@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-<header class="header"
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-    <img src="assets/img/image.jpg" alt="my photo"  width="189" height="255">    
-<section>
-    <p>Ekaterina Goralchuk</p>
-    <p>Junior Frontend Developer</p>
-    <p>Contact information:</p>
-    <p>Phone: +375293572482</p>
-    <p>E-mail:molchankatya3mel@gmail.com</p>
-    <p>linkedin:</p>
-</section>
-    <a href="https://www.linkedin.com/in/ekaterina-goralchuk-71a383131/ " target="_blank">link</a>
-    <section>
-        <p>About Myself:</p>
-        <p>I am an aspiring Junior Fronted Developer.</p>
-    </section>
-    <section>
-        <p>Courses:</p>
-    </section>
-<ul>
-<li>IT Academy Course "IU/IX Designer"</li>
-<li>RS School Course "JavaScript/Front-end. Stage 0" (in progress)</li>
-</ul>
-</main>
-<footer class="footer">
-</footer>
+        <div class="container">
+            <section id="profile">
+                <div class="profile-data">
+                    <img src="assets/img/image.jpg" alt="avatar" width="189" height="255">
+                </div>
+                <div class="profile-data">
+                    <p>Ekaterina Goralchuk</p>
+                    <p>Junior Frontend Developer</p>
+                    <p>Contact information:</p>
+                    <p>Phone: +375293572482</p>
+                    <p>E-mail:molchankatya3mel@gmail.com</p>
+                    <p>linkedin:</p>
+                </div>
+            </section>
+            <a href="https://www.linkedin.com/in/ekaterina-goralchuk-71a383131/ " target="_blank">link</a>
+            <section id="bio">
+                <p>About Myself:</p>
+                <p>I am an aspiring Junior Fronted Developer.</p>
+            </section>
+            <section id="skill">
+                <p>Courses:</p>
+                <ul>
+                    <li>IT Academy Course "IU/IX Designer"</li>
+                    <li>RS School Course "JavaScript/Front-end. Stage 0" (in progress)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p style="color: white; text-align: center;">All right reserved</p>
+        </div>
+    </footer>
 </body>
+
 </html>

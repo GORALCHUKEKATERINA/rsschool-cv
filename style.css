@@ -1,30 +1,146 @@
-p {
-    color: black;
+html {
+    scroll-behavior: smooth;
 }
-.header {
-    background: rgb(76, 80, 88);
-    height: 100px;
-}
+
 @font-face {
     font-family: 'Roboto';
     src: url("assets/fonts/RobotoThin.ttf");
     font-weight: 100;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Roboto';
     src: url("assets/fonts/RobotoRegular.ttf");
     font-weight: 300;
-  }
-.list {
-    background-color: azure;
-    border: 1px solid blue;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  .footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+
+.header {
+    background: rgb(76, 80, 88);
+    border: 1px solid red;
+    height: 100px;
+}
+
+.footer {
     background: rgb(6, 6, 6);
     height: 200px;
-  }
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+p {
+    color: black;
+}
+
+li {
+    border: 1px solid rgb(251, 251, 251);
+    color: green;
+}
+
+a.nav-link {
+    color: rgb(251, 251, 251);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #5d7260;
+}
+
+.section {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #808080;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #829985;
+    border-radius: 50%;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.profile-data {
+    float: left;
+    width: 50%;
+}
