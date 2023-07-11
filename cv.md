@@ -1,7 +1,7 @@
 # **Ekaterina Goralchuk** 
 ## **Junior Frontend Developer**
 ## **Contact information:**
-### **Phone:** +375293572481
+### **Phone:** +375293572482
 ### **E-mail:** molchankatya3mel@gmail.com
 ### **GitHub:** [GORALCHUKEKATERINA](https://github.com/GORALCHUKEKATERINA)
 [Linkedin](https://www.linkedin.com/in/ekaterina-goralchuk-71a383131/)
@@ -34,4 +34,4 @@ I was recently completed a course at IT Academy IU/IX designer and now I am exci
     ## **Languages**
     * English - Pre-intermediate (A2+)
     * Belarus - Native
-      * Russian - Basic
+    * Russian - Basic
